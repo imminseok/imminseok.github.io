@@ -83,10 +83,7 @@ header 영역 - 로고, 메인메뉴
     padding-bottom: 60px;
     /*background-color: bisque;*/
 }
-#featured-image {
-    position: relative;
-    width: 100%;
-}
+
 #featured-image img {
     width: 100%;
 }
