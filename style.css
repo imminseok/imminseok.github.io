@@ -48,8 +48,8 @@ footer {
     width: 100%;
 }
 
-/* Music Item Styles */
-.music-item {
+/* Recipe Item Styles */
+.recipe-item {
     display: inline-block;
     margin: 10px;
     border: 1px solid #ccc;
@@ -57,7 +57,13 @@ footer {
     width: calc(50% - 40px); /* 50% width minus padding and margin */
 }
 
-.music-item img {
+.recipe-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Recipe Detail Styles */
+#recipe-detail img {
     width: 100%;
     height: auto;
 }
@@ -69,7 +75,7 @@ footer {
         align-items: center;
     }
 
-    .music-item {
+    .recipe-item {
         width: 100%;
     }
 }
