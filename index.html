@@ -1,29 +1,39 @@
-<!DOCTYPE html>  <!-- HTML5 문서임을 알려줌 -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">  <!-- 한글이 정상적으로 보이도록 설정 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- 모바일에서 콘텐츠 크기 최적화 -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>High Way</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Recommendations</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-    <div id="header">
-        <div id="logo"><a href="index.html">HIGHWAY</a></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="detail.html">Details</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <div id="navmenu">
-            <a href="#">WORK</a>
-            <a href="#" target="_blank">INSTAGRAM</a>
-        </div>
-    </div>
+    <main>
+        <section id="home">
+            <h1>Latest Music Recommendations</h1>
+            <div class="music-item">
+                <img src="images/music1.jpg" alt="Music 1">
+                <h3><a href="detail.html">Music Title 1</a></h3>
+                <p>Artist: Artist 1</p>
+            </div>
+            <div class="music-item">
+                <img src="images/music2.jpg" alt="Music 2">
+                <h3><a href="detail.html">Music Title 2</a></h3>
+                <p>Artist: Artist 2</p>
+            </div>
+        </section>
+    </main>
 
-    
-
-  
-   <div id="featured-image"><img src="background.jpg"></div>
-  
-
-        <div id="copyright">Copyright &copy; 2024 임민석</div>
-    </div>
+    <footer>
+        <p>&copy; 2024 Music Recommendations</p>
+    </footer>
 </body>
 </html>
